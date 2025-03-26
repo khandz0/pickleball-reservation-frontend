@@ -9,6 +9,8 @@ It includes:
 - Integration with Google Maps, Places, and Geocoding APIs
 - Deployment-ready setup for both frontend and backend
 
+Backend Repo: [pickleball-reservation](https://github.com/khandz0/pickleball-reservation)
+
 ---
 
 ## 🌐 Live Deployment
@@ -69,7 +71,7 @@ This frontend is a React SPA designed to work with the backend API.
 ### 🔧 Backend (API)
 
 ```bash
-git clone https://github.com/yourusername/pickleball-reservation.git
+git clone https://github.com/khandz0/pickleball-reservation.git
 cd pickleball-reservation
 npm install
 npm run dev
@@ -92,7 +94,7 @@ GOOGLE_MAPS_API_KEY=your_google_maps_key
 ### 🖥 Frontend (React)
 
 ```bash
-git clone https://github.com/yourusername/pickleball-reservation-frontend.git
+git clone https://github.com/khandz0/pickleball-reservation-frontend.git
 cd pickleball-reservation-frontend
 npm install
 npm start
