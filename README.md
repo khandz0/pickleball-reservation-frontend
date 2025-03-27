@@ -9,8 +9,6 @@ It includes:
 - Integration with Google Maps, Places, and Geocoding APIs
 - Deployment-ready setup for both frontend and backend
 
-Backend Repo: [pickleball-reservation](https://github.com/khandz0/pickleball-reservation)
-
 ---
 
 ## 🌐 Live Deployment
@@ -49,6 +47,7 @@ See full backend documentation in `README.md` and `ADMIN_MANUAL.md`.
 - JWT authentication
 - Google Maps, Places, and Geocoding APIs
 - Deployed via Render
+  Backend Repo: [pickleball-reservation](https://github.com/khandz0/pickleball-reservation)
 
 ---
 
