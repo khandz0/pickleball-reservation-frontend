@@ -71,3 +71,6 @@ out
 
 # Local Netlify folder
 .netlify
+
+# Local Files
+src/assets/
