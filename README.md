@@ -54,15 +54,67 @@ See full backend documentation in `README.md` and `ADMIN_MANUAL.md`.
 
 ## 🧱 Frontend Overview
 
-This frontend is a React SPA designed to work with the backend API.
+The frontend is built using modern web technologies and follows best practices for React development:
 
-### Frontend Tech Stack
+### Core Technologies
 
-- React
-- Axios
-- React Router
-- Environment variable-based config
-- Deployed via Vercel
+- **React 18** - Modern UI library for building user interfaces
+- **TypeScript** - For type-safe JavaScript development
+- **React Router v6** - For client-side routing and navigation
+- **Tailwind CSS** - For utility-first CSS styling
+
+### Project Structure
+
+```
+src/
+├── assets/           # Static assets (images, icons, fonts)
+│   ├── images/      # Image files
+│   ├── icons/       # Icon files
+│   └── fonts/       # Custom fonts
+├── components/      # Reusable React components
+│   ├── Login.tsx    # Login page component
+│   └── Home.tsx     # Home page component
+├── App.tsx          # Main application component
+├── index.tsx        # Application entry point
+└── index.css        # Global styles and Tailwind directives
+```
+
+### Key Features
+
+- Modern, responsive UI design
+- Type-safe development with TypeScript
+- Component-based architecture
+- Clean and maintainable code structure
+- Efficient asset management
+- Environment-based configuration
+
+### Development Tools
+
+- **Create React App** - For project scaffolding and development
+- **ESLint** - For code linting and style enforcement
+- **TypeScript** - For static type checking
+- **Tailwind CSS** - For responsive and modern styling
+
+### Getting Started
+
+1. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+2. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+3. Build for production:
+   ```bash
+   npm run build
+   ```
+
+The application will be available at `http://localhost:3000` in development mode.
 
 ---
 
