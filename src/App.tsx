@@ -6,6 +6,7 @@ import {
   Navigate,
 } from "react-router-dom";
 import Login from "./components/Login";
+import SignUp from "./components/SignUp";
 import Home from "./components/Home";
 
 const App: React.FC = () => {
@@ -16,6 +17,7 @@ const App: React.FC = () => {
     <Router>
       <Routes>
         <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<SignUp />} />
         <Route
           path="/home"
           element={isAuthenticated ? <Home /> : <Navigate to="/login" />}
