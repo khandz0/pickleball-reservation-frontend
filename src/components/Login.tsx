@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Login: React.FC = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -86,12 +88,12 @@ const Login: React.FC = () => {
         <div className="mt-6 text-center">
           <p className="text-gray-600">
             Don't have an account?{" "}
-            <a
-              href="#"
+            <button
+              onClick={() => navigate("/signup")}
               className="text-blue-600 hover:text-blue-800 font-medium"
             >
               Sign up
-            </a>
+            </button>
           </p>
         </div>
       </div>
